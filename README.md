@@ -31,7 +31,56 @@ This repository contains my Deep Learning practical work, focusing on neural net
 - ✅ Dropout regularization
 - ✅ Batch Normalization
 - ✅ Optimizer comparison (SGD, Adam, SGD+Momentum)
+Course 1 (Sept. 24, 2025)
 
+Introduction to Computer Vision and ML basics slides1
+Visual (local) feature detection and description
+Bag of Word Image representation
+Linear classification (SVM) slides2_SVM
+Course 2
+Introduction to Neural Networks (NNs) slides2_NN
+NN training and Statistical decision theory slides3_NN
+
+Course 3
+
+Datasets, benchmarks and evaluation slides3_DATA
+Neural Nets for Image Classification slides4_LargeConvNet
+
+Course 4
+
+Large Neural Nets for Image Classification slides5_LargeConvNet
+
+Complements for intialization of NNs and normalization: BatchNorm, LayerNorm (convnet or transformer), InstanceNorm
+
+Course 5
+
+Vision Transformers slides_vit1
+Details of Vision Transformers architecture: Embedding matrix, positional encoding, attention module, FFN module, Norms, classToken, …
+
+Course 6
+Segmentation with CNN slides_segmenta
+Transfer learning and Domain adaptation slides7_Transfer
+
+Course 7
+Vision-Language models slides10.pdf
+
+Course 8
+Explaining&Monitoring VLMs
+
+Course 9
+Self-Supervised Learning in Vision
+
+Course 10
+Generative models with GANs slides8.pdf
+
+Course 11 (Jan. 07)
+Control 2pm-3:45pm + practicals 4pm-6pm
+
+Conditional GANs and Teaser Diffusion models slides9.pdf
+
+Course 12 Diffusion models for Image Generation (Alasdair)
+Course 13 Bayesian deep learning (Clement)
+Course 14 Failure and ood detection (Clement)
 #### Results
 - **Baseline accuracy**: ~72.82%
 - **Final accuracy**: ~83.88%
