@@ -1,73 +1,66 @@
-Computer Vision - Deep Learning Projects
+# Computer Vision - Deep Learning Projects
+
 This repository contains my Deep Learning practical work, focusing on neural networks, convolutional neural networks (CNNs), and Vision Transformers.
-📚 Contents
-1. Introduction to Neural Networks (Lab 1-a and 1-b)
 
-Authors: William Khieu & Akli Mohamed Ait-Oumeziane
-Date: October 2024
+## 📚 Contents
 
-Theoretical Part
+### 1. Introduction to Neural Networks (Lab 1-a and 1-b)
+- **Authors**: William Khieu & Akli Mohamed Ait-Oumeziane
+- **Date**: October 2024
 
-Neural network architecture (Forward/Backward)
-Loss functions (Cross-entropy, MSE)
-Optimization algorithms (SGD and variants)
-Backpropagation
+#### Theoretical Part
+- Neural network architecture (Forward/Backward)
+- Loss functions (Cross-entropy, MSE)
+- Optimization algorithms (SGD and variants)
+- Backpropagation
 
-Implementation
+#### Implementation
+- Building a neural network from scratch
+- Manual forward and backward passes
+- Mini-batch SGD optimization
+- Experiments with different hyperparameters
 
-Building a neural network from scratch
-Manual forward and backward passes
-Mini-batch SGD optimization
-Experiments with different hyperparameters
+### 2. Convolutional Neural Networks (Lab 1-c and 1-d)
+- **Dataset**: CIFAR-10
+- **Architecture**: CNN with 3 convolutional layers + 2 fully-connected layers
 
-2. Convolutional Neural Networks (Lab 1-c and 1-d)
+#### Implemented improvement techniques:
+- ✅ Data normalization
+- ✅ Data Augmentation (RandomCrop, HorizontalFlip, ColorJitter, etc.)
+- ✅ Learning Rate Scheduling (ExponentialLR, CosineAnnealing)
+- ✅ Dropout regularization
+- ✅ Batch Normalization
+- ✅ Optimizer comparison (SGD, Adam, SGD+Momentum)
 
-Dataset: CIFAR-10
-Architecture: CNN with 3 convolutional layers + 2 fully-connected layers
+#### Results
+- **Baseline accuracy**: ~72.82%
+- **Final accuracy**: ~83.88%
+- Significant reduction in overfitting
 
-Implemented improvement techniques:
+### 3. Vision Transformers (Lab 1-e)
+- **Architecture**: Implementation of the original Vision Transformer (ViT)
+- **Reference**: [An Image is Worth 16x16 Words](https://arxiv.org/abs/2010.11929)
 
-✅ Data normalization
-✅ Data Augmentation (RandomCrop, HorizontalFlip, ColorJitter, etc.)
-✅ Learning Rate Scheduling (ExponentialLR, CosineAnnealing)
-✅ Dropout regularization
-✅ Batch Normalization
-✅ Optimizer comparison (SGD, Adam, SGD+Momentum)
+#### Implementation features:
+- Simplified, smaller version than the original paper
+- From-scratch implementation of attention mechanism
+- Patch embedding and positional encoding
+- Multi-head self-attention
+- Adapted from the [Timm library](https://github.com/rwightman/pytorch-image-models)
 
-Results
+#### Notes:
+- Naive implementation without complex data augmentation
+- Without advanced regularizations used in [DeiT and CaiT](https://github.com/facebookresearch/deit)
+- Focus on understanding the architecture rather than performance
 
-Baseline accuracy: ~72.82%
-Final accuracy: ~83.88%
-Significant reduction in overfitting
+## 🛠️ Technologies Used
+- Python 3.x
+- PyTorch
+- NumPy
+- Matplotlib
+- Jupyter Notebooks
 
-3. Vision Transformers (Lab 1-e)
-
-Architecture: Implementation of the original Vision Transformer (ViT)
-Reference: An Image is Worth 16x16 Words
-
-Implementation features:
-
-Simplified, smaller version than the original paper
-From-scratch implementation of attention mechanism
-Patch embedding and positional encoding
-Multi-head self-attention
-Adapted from the Timm library
-
-Notes:
-
-Naive implementation without complex data augmentation
-Without advanced regularizations used in DeiT and CaiT
-Focus on understanding the architecture rather than performance
-
-🛠️ Technologies Used
-
-Python 3.x
-PyTorch
-NumPy
-Matplotlib
-Jupyter Notebooks
-
-📊 Project Structure
+## 📊 Project Structure
 Computer-Vision/
 ├── 1_ab_Intro_to_NNs.ipynb       # Introduction to neural networks
 ├── 1_cd_CNNs.ipynb                # Convolutional networks
@@ -75,13 +68,14 @@ Computer-Vision/
 ├── TP.ipynb                       # Additional practical work
 ├── Untitled*.ipynb                # Test and experimentation notebooks
 └── Reports/                       # Detailed PDF reports
-    ├── TP1_ab_Report.pdf
-    └── TP1_cd_Report.pdf
-🚀 Installation and Usage
+├── TP1_ab_Report.pdf
+└── TP1_cd_Report.pdf
 
-Clone the repository:
+## 🚀 Installation and Usage
 
-bashgit clone git@github.com:moms2700/Computer-Vision-.git
+1. Clone the repository:
+```bash
+git clone git@github.com:moms2700/Computer-Vision-.git
 cd Computer-Vision-
 
 Install dependencies:
